@@ -15,7 +15,7 @@ import java.util.List;
 @Log4j2
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "https://veebipood-09-2026-frontend.onrender.com"})
 public class OrderController {
     private final OrderRepository orderRepository;
     private final OrderService orderService; // faili tõmbame sisse
