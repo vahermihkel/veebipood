@@ -2,10 +2,12 @@ package ee.mihkel.veebipood;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
+@EnableCaching
 public class VeebipoodApplication {
 
     public static void main(String[] args) {
@@ -25,12 +27,12 @@ public class VeebipoodApplication {
 // 9. N 03.09 - pakiautomaadid, makse
 //10. T 08.09 - makse jätk. CRON, logide ülevaade
 //11. N 10.09 - Docker. Serverisse (Render), email
-//12. T 15.09 - kubernetes
-//13. N 17.09 - WebSocket. Beanide ülevaade, cache
+//12. T 15.09 - WebSocket
+//13. K 16.09 - Beanide ülevaade, cache
 //14. T 22.09 - autentimine
 //15. K 23.09 - autentimine
-//16. T 29.09
-//17. N 01.10???
+//16. E 28.09 -
+//17. K 30.09 - kubernetes
 //18. 07.10/22.10 2ak/h 17.30-19.00
 
 
